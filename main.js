@@ -1,83 +1,83 @@
 const cardArray = [
   {
     name: "SpongeBob",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/7/79/SpongeBob-SquarePants.jpg/revision/latest?cb=20180104021451",
+    src: "./img/spongeBob.webp",
   },
   {
     name: "Patrick",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/9/9e/SpongeBob-Patrick.jpg/revision/latest?cb=20180104021928",
+    src: "./img/patrick.webp",
   },
   {
     name: "Squidward",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/f/fe/SpongeBob-Squidward.jpg/revision/latest?cb=20180104021929",
+    src: "./img/squidward.webp",
   },
   {
     name: "MrKrabs",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/e/e2/SpongeBob-Mr-Krabs.jpg/revision/latest?cb=20180104021929",
+    src: "./img/mrKrabs.webp",
   },
   {
     name: "SheldonPlankton",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/4/42/SpongeBob-Plankton.jpg/revision/latest?cb=20180104021930",
+    src: "./img/plankton.webp",
   },
   {
     name: "KarenPlankton",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/4/49/SpongeBob-Karen.jpg/revision/latest?cb=20180104021930",
+    src: "./img/karen.webp",
   },
   {
     name: "Sandy",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/6/65/SpongeBob-Sandy.jpg/revision/latest?cb=20180104021931",
+    src: "./img/sandy.webp",
   },
   {
     name: "MrsPuff",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/a/ad/SpongeBob-Mrs-Puff.jpg/revision/latest?cb=20180104021932",
+    src: "./img/mrsPuff.webp",
   },
   {
     name: "PearlKrabs",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/3/31/SpongeBob-Pearl.jpg/revision/latest?cb=20180104021931",
+    src: "./img/pearl.webp",
   },
   {
     name: "Gary",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/1/11/SpongeBob-Gary.jpg/revision/latest?cb=20180104021932",
+    src: "./img/gary.webp",
   },
   {
     name: "SpongeBob",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/7/79/SpongeBob-SquarePants.jpg/revision/latest?cb=20180104021451",
+    src: "./img/spongeBob.webp",
   },
   {
     name: "Patrick",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/9/9e/SpongeBob-Patrick.jpg/revision/latest?cb=20180104021928",
+    src: "./img/patrick.webp",
   },
   {
     name: "Squidward",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/f/fe/SpongeBob-Squidward.jpg/revision/latest?cb=20180104021929",
+    src: "./img/squidward.webp",
   },
   {
     name: "MrKrabs",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/e/e2/SpongeBob-Mr-Krabs.jpg/revision/latest?cb=20180104021929",
+    src: "./img/mrKrabs.webp",
   },
   {
     name: "SheldonPlankton",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/4/42/SpongeBob-Plankton.jpg/revision/latest?cb=20180104021930",
+    src: "./img/plankton.webp",
   },
   {
     name: "KarenPlankton",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/4/49/SpongeBob-Karen.jpg/revision/latest?cb=20180104021930",
+    src: "./img/karen.webp",
   },
   {
     name: "Sandy",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/6/65/SpongeBob-Sandy.jpg/revision/latest?cb=20180104021931",
+    src: "./img/sandy.webp",
   },
   {
     name: "MrsPuff",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/a/ad/SpongeBob-Mrs-Puff.jpg/revision/latest?cb=20180104021932",
+    src: "./img/mrsPuff.webp",
   },
   {
     name: "PearlKrabs",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/3/31/SpongeBob-Pearl.jpg/revision/latest?cb=20180104021931",
+    src: "./img/pearl.webp",
   },
   {
     name: "Gary",
-    src: "https://static.wikia.nocookie.net/nickelodeon/images/1/11/SpongeBob-Gary.jpg/revision/latest?cb=20180104021932",
+    src: "./img/gary.webp",
   },
 ];
 const board = document.getElementById("board");
