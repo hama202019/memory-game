@@ -1,0 +1,136 @@
+body {
+  background-image: url("https://static.wikia.nocookie.net/nickelodeon/images/1/1a/SpongeBob_SquarePants_Characters_Cast_Nickelodeon_Promo_Image.png/revision/latest?cb=20180507205108");
+  background-size: 112%;
+}
+button{
+  cursor: pointer;
+  margin: 3px;
+  border-radius: 10px;
+}
+img{
+  cursor: pointer;
+}
+#main{
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-between;
+  align-items: center;
+}
+#board {
+  position: relative;
+  display: none;
+  /* grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(4, 1fr); */
+  border-radius: 10px;
+  column-gap: 3px;
+  row-gap: 3px;
+  opacity: 1;
+  /* width: fit-content; */
+}
+#restartBtn {
+  display: none;
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  font-family: cursive;
+  font-size: 28px;
+  background-color: unset;
+  border-color: unset;
+}
+#youWin {
+  display: none;
+  position: relative;
+  font-family: cursive;
+  line-height: 50px;
+  font-size: 48px;
+}
+.you {
+  color: rgb(55, 150, 194);
+}
+.win {
+  color: rgb(248, 248, 124);
+}
+h2 {
+  text-align: center;
+  font-size: 22px;
+  line-height: 50px;
+}
+#timer {
+  color: rgb(143, 202, 204);
+}
+#span1 {
+  color: rgb(248, 248, 124);
+}
+#timeBtn {
+  position: relative;
+  height: 50px;
+  width: 200px;
+  /* top: 40%; */
+  font-family: cursive;
+  font-size: 28px;
+  background-color: unset;
+  border-color: unset;
+}
+#startBtn {
+  position: relative;
+  border-color: unset;
+  height: 50px;
+  /* top: 10%; */
+  width: 200px;
+  font-family: cursive;
+  font-size: 28px;
+  background-color: unset;
+}
+.btns {
+  position: relative;
+  border-radius: 10px;
+  width: 200px;
+}
+img {
+  border-radius: 10px;
+}
+
+@media only screen and (min-width: 800px){
+  #board {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  img{
+    width: 139px;
+    height: 129px;
+  }
+}
+
+@media only screen and (max-width: 800px) and (min-width: 600px){
+  #board {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+  img{
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 599px) and (min-width: 300px){
+  #board {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+  }
+  img{
+    width: 90px;
+    height: 90px;
+  }
+}
+
+@media only screen and (max-width: 299px) and (min-width: 1px){
+  #board {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+  }
+  img{
+    width: 90px;
+    height: 90px;
+  }
+}

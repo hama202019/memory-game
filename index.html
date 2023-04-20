@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>replit</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body id="main">
+    <h2><span id="timer">Remaining time: </span><span id="span1"></span></h2>
+    <div class="btns">
+      <button id="startBtn"><span class="you">Start</span> <span class="win">Game</span></button>
+      <button id="timeBtn" onclick="setTimer()"><span class="win">Set</span> <span class="you">time</span></button>
+    </div>
+    <h1 id="youWin"><span class="you">You </span> <span class="win">Win!</span></h1>
+    <div id="board"></div>
+    <button id="restartBtn">
+      <span id="restart">Restart </span> <span id="game">Game</span>
+    </button>
+    <script src="./main.js"></script>
+  </body>
+</html>
