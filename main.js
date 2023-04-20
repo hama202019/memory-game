@@ -130,7 +130,7 @@ function createCards(arr) {
     const card = document.createElement("img");
     card.setAttribute(
       "src",
-      "https://static.wikia.nocookie.net/nickelodeon/images/9/91/Painty_the_Pirate.png/revision/latest?cb=20180104022457"
+      "./img/pirate.webp"
     );
     card.setAttribute("class", "allImages");
     card.setAttribute("id", i);
@@ -161,7 +161,7 @@ function showCards() {
     for (let i = 0; i < n; i++) {
       cards[i].setAttribute(
         "src",
-        "https://static.wikia.nocookie.net/nickelodeon/images/9/91/Painty_the_Pirate.png/revision/latest?cb=20180104022457"
+        "./img/pirate.webp"
       );
       cards[i].addEventListener("click", () => {
         if (!waitToCheckCards && cards[i].src) {
@@ -189,12 +189,12 @@ function youLost() {
     if (cards[i].src) {
       cards[i].setAttribute(
         "src",
-        "https://static.wikia.nocookie.net/nickelodeon/images/4/40/Flying_Duchman_Season_11.png/revision/latest?cb=20180925030939"
+        "img/pirate.webp"
       );
     }
   }
   main.style.backgroundImage =
-    "url('https://static.wikia.nocookie.net/nickelodeon/images/8/82/Image-1597542915.jpg/revision/latest?cb=20200816015516')";
+    "url('img/lostBg.webp')";
   main.style.backgroundSize = "cover";
   let opacity = 1;
   setInterval(() => {
@@ -207,11 +207,11 @@ function checkCardsFunc() {
   if (checkCardsId[0] === checkCardsId[1]) {
     cards[checkCardsId[0]].setAttribute(
       "src",
-      "https://static.wikia.nocookie.net/nickelodeon/images/9/91/Painty_the_Pirate.png/revision/latest?cb=20180104022457"
+      "./img/pirate.webp"
     );
     cards[checkCardsId[1]].setAttribute(
       "src",
-      "https://static.wikia.nocookie.net/nickelodeon/images/9/91/Painty_the_Pirate.png/revision/latest?cb=20180104022457"
+      "./img/pirate.webp"
     );
     checkCardsId = [];
     checkCards = [];
@@ -225,8 +225,6 @@ function checkCards2Func() {
     setTimeout(() => {
       cards[checkCardsId[0]].removeAttribute("src");
       cards[checkCardsId[1]].removeAttribute("src");
-      // cards[checkCardsId[0]].removeEventListener('click');
-      // cards[checkCardsId[1]].removeEventListener('click');
       checkCards = [];
       checkCardsId = [];
       matchedCards += 2;
@@ -237,11 +235,11 @@ function checkCards2Func() {
     setTimeout(() => {
       cards[checkCardsId[0]].setAttribute(
         "src",
-        "https://static.wikia.nocookie.net/nickelodeon/images/9/91/Painty_the_Pirate.png/revision/latest?cb=20180104022457"
+        "./img/pirate.webp"
       );
       cards[checkCardsId[1]].setAttribute(
         "src",
-        "https://static.wikia.nocookie.net/nickelodeon/images/9/91/Painty_the_Pirate.png/revision/latest?cb=20180104022457"
+        "./img/pirate.webp"
       );
       checkCards = [];
       checkCardsId = [];
